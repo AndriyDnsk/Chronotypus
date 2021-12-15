@@ -1,0 +1,174 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: #f1f4f7;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+*{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+
+.header{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fff;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.main-menu{
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  width: 250px;
+  height: 50px;
+}
+
+.main-menu_link{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+}
+.logo_link{
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+  padding: 10px;
+  display: flex;
+}
+
+.main-menu_item:not(:last-child){
+  margin-right: 40px;
+}
+
+.main-menu_link:hover{
+  transition: all 500ms ease;
+  background-color: #dddddd;
+}
+
+.answer {
+  display: inline-block;
+  margin-right: 10px;
+}
+.test-item {
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  max-width: 1200px;
+  margin: 0 auto 10px;
+  padding: 15px 20px;
+  background-color: #fff;
+}
+
+.test-item label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 0 15px;
+	line-height: 34px;
+	border: 1px solid #999;
+	border-radius: 6px;
+	user-select: none;
+    vertical-align:top;
+  font-size: 17px;
+  background-color: #fafafa;
+
+}
+
+.test-item label:hover {
+  background-color: #eff1f3;
+}
+
+.question{
+  font-size: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer{
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+
+
+.label:focus-within{
+  border-color: #0091ea;
+  color: blueviolet;
+}
+
