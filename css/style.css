@@ -100,21 +100,24 @@ select {
   display: flex;
   align-items: center;
   height: 100%;
+
 }
 
 .logo{
   width: 250px;
-  height: 50px;
+  height: 45px;
 }
 
 .main-menu_link{
   text-decoration: none;
   color: black;
   font-size: 24px;
-  padding: 10px;
-height: 100%;
+  padding: 50px 10px 34px 10px;
+  height: 100%;
+
 
 }
+
 .logo_link{
   text-decoration: none;
   color: black;
@@ -129,7 +132,7 @@ height: 100%;
 
 .main-menu_link:hover{
   transition: all 500ms ease;
-  background-color: #dddddd;
+  background-color: #f3f3f3;
   height: 100%;
 
 }
@@ -176,6 +179,7 @@ label:focus-within{
   color: #0091ea;
   font-weight: bolder;
 }
+
 .question{
   font-size: 24px;
   max-width: 1000px;
@@ -202,14 +206,24 @@ a {
   justify-content: space-between;
   position: relative;
 }
+
 .button:hover{
   background-color: #735283;
 }
 
-.footer{
-  width: 100%;
-  height: auto;
-  background-color: black;
-  border-top: #0091ea;
+hr {
+  background: linear-gradient(to right, #6f42c1, #007bff);
 }
 
+.disclaimer{
+  font-size: 16px;
+  color: #7f7f7f;
+  text-align: center;
+  margin: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.list-inline-item{
+  color: #4298b4;
+}
