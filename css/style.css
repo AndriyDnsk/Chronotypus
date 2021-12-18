@@ -71,6 +71,7 @@ select {
 *{
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
+  color: #51596a;
 }
 
 .header{
@@ -82,7 +83,7 @@ select {
   box-shadow: 0 1px 10px 0 #BDC4BC;
 }
 .main{
-  padding-top: 180px;
+  padding-top: 150px;
 }
 .container{
   max-width: 1200px;
@@ -177,6 +178,9 @@ label:focus-within{
   font-weight: bolder;
 }
 
+.btn:hover{
+  background-color: blueviolet;
+}
 .question{
   font-size: 24px;
   max-width: 1000px;
@@ -188,10 +192,12 @@ label:focus-within{
 }
 
 .title {
-  text-align: center;
   font-size: 40px;
   font-weight: bolder;
-  margin: 20px 0 40px;
+  margin: 20px 0 20px;
+}
+.main-title{
+  text-align: center;
 }
 
 .paragraph {
@@ -212,7 +218,6 @@ a {
   font-size: 20px;
   color: #fff;
   border-radius: 9999px;
-
   padding: 20px 50px;
   justify-content: center;
   position: relative;
@@ -236,4 +241,15 @@ hr {
 
 .list-inline-item{
   color: #4298b4;
+}
+
+.listed-content{
+  position: relative;
+
+}
+
+.image{
+  position: absolute;
+  right: 0;
+
 }

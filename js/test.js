@@ -50,7 +50,7 @@ btn.addEventListener('click', () => {
     });
 
     if(count <= 30){
-        document.body.innerHTML = "<p>определенно вечерний</p> <button onClick=\"window.location.reload()\">Назад</button>"
+        document.getElementById("root").innerHTML = "<p>определенно вечерний</p> <button onClick=\"window.location.reload()\">Назад</button>"
     }
 
     if(count > 30 && count <= 41){
